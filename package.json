@@ -1,0 +1,17 @@
+{
+  "name": "fortune-cookie",
+  "version": "1.0.0",
+  "description": "*NIX fortune for Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Hideki A. Ikeda",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^5.8.0"
+  }
+}
