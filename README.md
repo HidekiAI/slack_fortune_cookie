@@ -22,4 +22,4 @@ cron script to slack message (chat.postMessage) fortune | cowsay to the channel
 * either type `node index.sh` or `./run.sh`
 * If all goes well, you will see a `fortune | cowsay` message on your slack channel
 
-![GitHub Logo](/slack_fortune_cookie.png)
+![screenshot](/slack_fortune_cookie.png)
