@@ -14,7 +14,7 @@ cron script to slack message (chat.postMessage) fortune | cowsay to the channel
 3. Create and/or go to #channel
 4. '/invite @YourBotName' associated to SLACK_TOKEN
 5. run Linux command `$ crontab -e`
-	* add line `*/30 * * * * /dir/where/source/exists/run.sh `
+	* add line `*/30 * * * * 	cd /dir/where/source/exits && /dir/where/source/exists/run.sh `
 	* above example will cron every 30th minute
 # Test:
 * Assuming you're on Linux and Node.js is installed
