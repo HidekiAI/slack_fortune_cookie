@@ -23,4 +23,3 @@ cron script to slack message (chat.postMessage) fortune | cowsay to the channel
 * If all goes well, you will see a `fortune | cowsay` message on your slack channel
 
 ![GitHub Logo](/slack_fortune_cookie.png)
-Format: ![Alt Text](url)
