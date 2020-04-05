@@ -1,12 +1,13 @@
 # slack_fortune_cookie
 cron script to slack message (chat.postMessage) fortune | cowsay to the channel
-Requirement:
+
+# Requirement:
 * Linux with cron daemon (i.e. Anachron, etc)
 * Nodejs
 * cowsay
 * fortune
 
-Installation:
+# Installation:
 1. Edit env.conf.sh file and set all the environment
    read the comments carefully
 2. Open Slack
@@ -15,8 +16,7 @@ Installation:
 5. run Linux command `$ crontab -e`
 	* add line `*/0 * * * * * /dir/where/source/exists/run.sh `
 	* above example will cron every 1 hour (at 0th minute)
-
-Test:
+# Test:
 * Assuming you're on Linux and Node.js is installed
 * go to directory where 'run.sh' (index.js) resides
 * either type `node index.sh` or `./run.sh`
